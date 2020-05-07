@@ -4,6 +4,7 @@
   <title>Page Title</title>
   <meta charset="UTF-8"/>
   <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2967b1bb61.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -12,15 +13,18 @@
         <div>Already have an intuit account?</div>
         <a href="#">I forgot my User ID or Password</a>
       </div>
-      <button class="signin-btn">Sign In</button>
+      <button class="signin-btn"><i class="fas fa-lock"></i>Sign In</button>
     </div>
   </header>
   <div class="main">
     <div class="title">
       <h1>intuit</h1>
       <ul class="products">
+        <li><i class="fas fa-dot-circle mint"></i></li>
         <li>mint</li>
+        <li><i class="fas fa-info-circle qb"></i></li>
         <li>quickbooks</li>
+        <li><i class="fas fa-check-circle turbotax"></i></li>
         <li>turbotax</li>
       </ul>
     </div>
@@ -47,22 +51,25 @@
         <input type="submit" value="Create Account">
       </div>
       <div class="form-agreement">
-        By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.
+        By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
       </div>
       <footer>
-        <span>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use</span>
+        <span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></span>
       </footer>
     </form>
   </div>
-  <footer>
-    <ul>
-      <li>Legal</li>
-      <li>Privacy</li>
-      <li>Security</li>
-    </ul>
-    <div>
-      © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-Terms and conditions, features, support, pricing, and service options subject to change without notice.
+  <footer class="footer-bottom">
+    <div class="footer-container">
+      <div class="footer-links">
+        <ul>
+          <li><a href = "#">Legal</a></li>
+          <li><a href = "#">Privacy</a></li>
+          <li><a href = "#">Security</a></li>
+        </ul>
+      </div>
+      <div class="copywrite">
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
+      </div>
     </div>
   </footer>
 </body>
