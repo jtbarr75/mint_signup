@@ -1,0 +1,178 @@
+/* Header */
+
+header {
+  overflow: hidden;
+  height: 60px;
+}
+
+.signin {
+  float: right;
+}
+
+.signin-label {
+  font-size: 12px;
+  font-weight: normal;
+  float: left;
+}
+
+.signin-label div {
+  margin-bottom: 4px;
+}
+
+.signin-btn {
+  margin-left: 10px;
+  height: 34px;
+  background: #0077C5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+  line-height: normal;
+}
+
+.signin-label a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
+/* Main Content */
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #505050;
+}
+
+.main {
+  margin: auto;
+  text-align: center;
+  width: 380px;
+}
+
+h1, h3 {
+  margin: 10px 0 10px 0;
+}
+
+.products {
+  padding: 0;
+  margin: 10px 0 10px 0;
+}
+
+.products li {
+  display: inline-block;
+}
+
+/* Form */
+
+form {
+  background-color: white;
+  color: #4c4c4c;
+  border: 1px solid #C1C5C8
+}
+
+form h2 {
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+form h4 {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.learn-more {
+  margin-top: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  color: #0077C5;
+}
+
+.form-title {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  text-align: left;
+  border: none;
+  margin-left: 12px
+}
+
+input {
+  display: block;
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  color: black;
+  outline: 0 none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+  border: 1px solid #C1C5C8;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.sublabel {
+  font-size: 10px;
+  color: #444;
+  margin: 0;
+}
+
+#password-field {
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.submit {
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.submit input {
+  height: 44px;
+  text-shadow: none;
+  font-weight: normal;
+  color: white;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75); */
+  width: 320px;
+  min-width: 100px;
+  padding: 6px 12px;
+  line-height: 1.4;
+  font-size: 18px;
+  background: #0077C5;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.form-agreement {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  margin: 10px 60px 30px 60px;
+}
+
+form footer {
+  font-size: 10px;
+  font-style: italic;
+  color: #757575;
+  background-color: #ECEEF1;
+  padding: 16px;
+}
